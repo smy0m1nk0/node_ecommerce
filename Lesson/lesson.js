@@ -42,7 +42,7 @@ function func(val){
 
 //Module Export Lesson , Mutiple Function Export
 
-const {help,goofy} = require('../helper');
+const {help,goofy} = require('./helper');
 
 help("MS");
 goofy("MS");
